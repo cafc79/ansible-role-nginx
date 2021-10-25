@@ -21,7 +21,7 @@
         or nginx_amplify_enable | bool
   tags: nginx_key
 
-- name: Install and Configure NGINX
+- name: Install NGINX
   block:
     - name: Install NGINX
       block:
